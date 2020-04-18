@@ -12,4 +12,5 @@ protocol Present {
 
     var description: String {get}
     var detail: String {get}
+    var icon: String {get}
 }

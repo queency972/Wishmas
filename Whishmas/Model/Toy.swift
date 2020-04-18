@@ -20,4 +20,7 @@ extension Toy: Present {
     var detail: String {
         return brand
     }
+    var icon: String {
+           return "ToyIcon"
+       }
 }

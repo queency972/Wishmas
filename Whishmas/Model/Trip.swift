@@ -21,4 +21,7 @@ extension Trip: Present {
     var detail: String {
         return "\(durationInDays) Days"
     }
+    var icon: String {
+        return "TripIcon"
+    }
 }

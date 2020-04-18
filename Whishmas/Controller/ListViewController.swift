@@ -30,12 +30,13 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ToyCell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "PresentCell", for: indexPath) as?  PresentTableViewCell  else {
+            return UITableViewCell()
+        }
         
         let present = PresentService.shared.presents[indexPath.row]
         
-        cell.textLabel?.text = present.description
-        cell.detailTextLabel?.text = present.detail
+        cell.configure(withIcon: present.icon, title: present.description, subtitle: present.detail)
         
         
         return cell

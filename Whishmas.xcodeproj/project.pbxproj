@@ -20,6 +20,7 @@
 		C98BCA8420A041EC00892C28 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8320A041EC00892C28 /* Book.swift */; };
 		C98BCA8620A041F900892C28 /* PresentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8520A041F900892C28 /* PresentService.swift */; };
 		C98BCA8A20A0484A00892C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BCA8920A0484A00892C28 /* Assets.xcassets */; };
+		E94B0BD8244ABEFB002AF747 /* PresentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B0BD7244ABEFB002AF747 /* PresentTableViewCell.swift */; };
 		E9AB00B9244AB1EA00E5B382 /* Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB00B8244AB1EA00E5B382 /* Present.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		C98BCA8320A041EC00892C28 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		C98BCA8520A041F900892C28 /* PresentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentService.swift; sourceTree = "<group>"; };
 		C98BCA8920A0484A00892C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94B0BD7244ABEFB002AF747 /* PresentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTableViewCell.swift; sourceTree = "<group>"; };
 		E9AB00B8244AB1EA00E5B382 /* Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C98BCA6220A0389F00892C28 /* Main.storyboard */,
+				E94B0BD7244ABEFB002AF747 /* PresentTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				E9AB00B9244AB1EA00E5B382 /* Present.swift in Sources */,
 				C98BCA7A20A0417800892C28 /* TripViewController.swift in Sources */,
 				C98BCA7820A0416D00892C28 /* CategoryViewController.swift in Sources */,
+				E94B0BD8244ABEFB002AF747 /* PresentTableViewCell.swift in Sources */,
 				C98BCA7E20A0418700892C28 /* BookViewController.swift in Sources */,
 				C98BCA8620A041F900892C28 /* PresentService.swift in Sources */,
 				C98BCA8420A041EC00892C28 /* Book.swift in Sources */,

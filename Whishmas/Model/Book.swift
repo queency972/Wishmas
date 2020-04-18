@@ -20,5 +20,8 @@ extension Book: Present {
     var detail: String {
         return author
     }
+    var icon: String {
+           return "BookIcon"
+       }
 }
 
